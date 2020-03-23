@@ -1,7 +1,7 @@
 package com.oasisfeng.nevo.decorators.wechat;
 
-import android.support.v4.app.NotificationCompat.MessagingStyle;
-import android.support.v4.app.NotificationCompat.MessagingStyle.Message;
+import androidx.core.app.NotificationCompat.MessagingStyle;
+import androidx.core.app.NotificationCompat.MessagingStyle.Message;
 import android.text.TextUtils;
 
 import java.util.List;
