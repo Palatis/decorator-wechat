@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Nevolution Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="decorator_wechat_label">女媧石 - 微信通知增強</string>
+    <string name="decorator_wechat_title">微信通知增強</string>
+    <string name="decorator_wechat_description">符合當代 Android 的最佳通知體驗：會話樣式、快速回覆、側滑標記已讀…等高級特性。</string>
+    <string name="action_preview_image">預覽圖片</string>
+
+    <string name="channel_message">新消息通知</string>
+    <string name="channel_group_message">新群組消息通知</string>
+
+    <!-- Settings -->
+
+    <string name="pref_activate_title">啟用</string>
+    <string name="pref_activate_summary_wechat_not_installed">「微信」尚未安裝</string>
+    <string name="pref_activate_summary_nevo_not_installed">「女媧石」尚未安裝</string>
+    <string name="pref_activate_summary_already_activated">已啟用</string>
+    <string name="pref_extension_title">特性擴展包</string>
+    <string name="pref_extension_summary">添加更多特性（快速回覆、側滑標記已讀…等）</string>
+    <string name="pref_extension_summary_installed">已安装</string>
+    <string name="pref_extension_summary_not_cloned_in_island">未克隆進壺中界 %s 中</string>
+    <string name="prompt_extension_install">您有兩個選擇：\n\t- 安裝完整版 Android Auto（使用較多空間），或是…\n\t- 使用「極簡包」。\n如果您不需要使用 Android Auto 或者不清楚它是什麼，建議使用「極簡包」。</string>
+    <string name="action_install_android_auto">安裝 Android Auto</string>
+    <string name="action_install_dummy_auto">安裝極簡包</string>
+    <string name="pref_agent_title">體驗增強包</string>
+    <string name="pref_agent_summary">藉由安裝一個微信的替身，可消除女媧石在外源模式下的微信通知前綴。支援通知原點（需啟動器支援）並提供「掃碼」捷徑。</string>
+    <string name="pref_agent_summary_prefix_enabled">已啟用</string>
+    <string name="pref_agent_summary_prefix_disabled">已停用</string>
+    <string name="pref_agent_summary_installed">啟用此功能後，啟動器中會出現一個與微信相同圖示的啟動入口，它是微信啟動圖示的「替身」，支援通知圓點（需啟動器支援）及「掃碼」捷徑（Android 7.1+）。\n點擊可切換此替身圖示的顯示名稱或停用。</string>
+    <string name="pref_agent_summary_update">找到更新版本，請按這裡開始升級。</string>
+    <string name="action_disable_agent_launcher_entrance">隱藏替身的啟動入口</string>
+    <string name="pref_mention_action_title">添加 @提及 式快速回覆</string>
+    <string name="pref_mention_action_summary">額外的快速回覆操作，提及聊天室中的最後發言者。\n注意：受接口限制，這 *不會* 像在聊天界面中的提擊動作般觸發對方的提醒。</string>
+    <string name="pref_call_tweak_title">增強通話體驗</string>
+    <string name="pref_call_tweak_summary">增加語音、視訊通話中的通知體驗，醒目的背景色、即時顯示通話時長。</string>
+    <string name="pref_wear_title">Wear OS（實驗性）</string>
+    <string name="pref_wear_summary">將通知同步至 Wear OS 設備</string>
+    <string name="pref_hide_title">隱藏啟動圖示</string>
+    <string name="pref_hide_summary">您還可以透過女媧石設定中的外掛設定進入這個介面。</string>
+    <string name="pref_open_source_title">開放原始碼項目</string>
+    <string name="pref_open_source_summary">歡迎來 GitHub 上訪問我們</string>
+    <string name="pref_version_title">版本</string>
+    <string name="prompt_hide_prerequisite">必須經由女媧石中的外掛設定入口進入此界面才能隱藏啟動圖示，這也是圖示隱藏後進入這個介面的方式。</string>
+    <string name="self_display_name">您</string>
+    <string name="action_reply">回覆</string>
+    <string name="channel_misc">其他通知</string>
+</resources>

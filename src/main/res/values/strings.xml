@@ -16,47 +16,47 @@
   -->
 
 <resources>
-    <string name="decorator_wechat_label">女娲石 - 即时通信增强（支持微信通知）</string>
-    <string name="decorator_wechat_title">微信通知增强</string>
-    <string name="decorator_wechat_description">符合当代 Android 的最佳通知体验：会话样式、直接回复、划除即已读等高级特性。</string>
-    <string name="self_display_name">你</string>
-    <string name="action_reply">回复</string>
-    <string name="action_preview_image">预览图片</string>
+    <string name="decorator_wechat_label">Nevolution - WeChat Notification Enhancement</string>
+    <string name="decorator_wechat_title">WeChat Notification Enhancement</string>
+    <string name="decorator_wechat_description">Modern notification support: conversation style, direct reply, mark read on swipe out… etc.</string>
+    <string name="self_display_name">You</string>
+    <string name="action_reply">Reply</string>
+    <string name="action_preview_image">Preview Image</string>
 
-    <string name="channel_message">新消息通知</string>
-    <string name="channel_group_message">新群组消息通知</string>
-    <string name="channel_misc">其它通知</string>
+    <string name="channel_message">New Message</string>
+    <string name="channel_group_message">New Group Message</string>
+    <string name="channel_misc">Other</string>
 
     <!-- Settings -->
 
-    <string name="pref_activate_title">启用</string>
-    <string name="pref_activate_summary_wechat_not_installed">“微信”未安装</string>
-    <string name="pref_activate_summary_nevo_not_installed">“女娲石”尚未安装</string>
-    <string name="pref_activate_summary_already_activated">已启用</string>
-    <string name="pref_extension_title">特性扩展包</string>
-    <string name="pref_extension_summary">添加更多特性（快捷回复、划掉标记已读 等）</string>
-    <string name="pref_extension_summary_installed">已安装</string>
-    <string name="pref_extension_summary_not_cloned_in_island">壶中界%s 内未克隆</string>
-    <string name="prompt_extension_install">你有两个选项：安装完整版的 Android Auto（消耗较多空间），或者“极简包”。如果你不需要使用 Android Auto 或者不清楚它是什么，建议选择“极简包”。</string>
-    <string name="action_install_android_auto">安装 Android Auto</string>
-    <string name="action_install_dummy_auto">安装极简包</string>
-    <string name="pref_agent_title">体验增强包</string>
-    <string name="pref_agent_summary">通过安装一个微信的替身，可消除女娲石在外源模式下的微信通知前缀，支持通知圆点（需启动器支持），并提供“扫码”的快捷方式。</string>
-    <string name="pref_agent_summary_prefix_enabled">已启用</string>
-    <string name="pref_agent_summary_prefix_disabled">已禁用</string>
-    <string name="pref_agent_summary_installed">启用此功能后，启动器中会多出一个与微信相同图标的启动入口，它是一个微信启动图标的“替身”，通知圆点（需启动器支持）和“扫码”快捷方式（Android 7.1+）将显示在其上。\n点击可切换此替身的显示名或禁用。</string>
-    <string name="pref_agent_summary_update">有更新版本，请点击这里开始升级。🆕</string>
-    <string name="action_disable_agent_launcher_entrance">隐藏替身的启动入口</string>
-    <string name="pref_mention_action_title">添加 @提及 式快捷回复</string>
-    <string name="pref_mention_action_summary">额外的快捷回复操作，提及群聊中的最后发言者。\n注意，受接口限制，这 *不会* 像在聊天界面中的提及动作那样触发对方的提醒。</string>
-    <string name="pref_call_tweak_title">优化通话通知</string>
-    <string name="pref_call_tweak_summary">优化通话进行中的通知体验，增加醒目的背景色，实时显示通话时长。</string>
-    <string name="pref_wear_title">Wear OS (实验性)</string>
-    <string name="pref_wear_summary">同步通知至 Wear OS 设备</string>
-    <string name="pref_hide_title">隐藏启动图标</string>
-    <string name="pref_hide_summary">你还可以通过女娲石设置中的插件设置进入这个界面。</string>
-    <string name="pref_open_source_title">开源项目</string>
-    <string name="pref_open_source_summary">欢迎来 GitHub 上访问我们</string>
-    <string name="pref_version_title">版本</string>
-    <string name="prompt_hide_prerequisite">隐藏启动图标的前提是从女娲石的插件设置入口进入此界面，这也是图标隐藏后进入此界面的路径。</string>
+    <string name="pref_activate_title">Activate</string>
+    <string name="pref_activate_summary_wechat_not_installed">\"WeChat\" is not installed</string>
+    <string name="pref_activate_summary_nevo_not_installed">\"Nevolution\" is not installed</string>
+    <string name="pref_activate_summary_already_activated">Activated</string>
+    <string name="pref_extension_title">Extension Pack</string>
+    <string name="pref_extension_summary">Enable more features (quick reply, swipe to mark read… etc.)</string>
+    <string name="pref_extension_summary_installed">Installed</string>
+    <string name="pref_extension_summary_not_cloned_in_island">Extension pack not cloned to %s</string>
+    <string name="prompt_extension_install">You\'ve got 2 options:\n\t- Full version of Android Auto (requires more storage space), or\n\t- Dummy Android Auto package\nIf you don\'t use Android Auto or have no idea what that is, pick the dummy package.</string>
+    <string name="action_install_android_auto">Install Android Auto</string>
+    <string name="action_install_dummy_auto">Install dummy Android Auto</string>
+    <string name="pref_agent_title">Experience Enhance Agent</string>
+    <string name="pref_agent_summary">Install an agent for WeChat, support WeChat notification prefix in Nevolution and notification badge (requires launcher support), provide \"Scan QR\" shortcut.</string>
+    <string name="pref_agent_summary_prefix_enabled">Enabled</string>
+    <string name="pref_agent_summary_prefix_disabled">Disabled</string>
+    <string name="pref_agent_summary_installed">Enable a cloned WeChat launcher icon, supports notification badge (requires launcher support) and \"Scan QR\" quick action (Android 7.1+).\nClick to disable or modify it\'s display name.</string>
+    <string name="pref_agent_summary_update">New version found, click here to update.</string>
+    <string name="action_disable_agent_launcher_entrance">Hide agent launcher entrance</string>
+    <string name="pref_mention_action_title">\@mention quick reply</string>
+    <string name="pref_mention_action_summary">Extra quick-reply action, mention the last speaker in a group chat.\nNote: this WILL NOT trigger normal notificaiton like replied in the chat window, due to API limitation.</string>
+    <string name="pref_call_tweak_title">Improve Call Notification</string>
+    <string name="pref_call_tweak_summary">Improve the experience during on-going call.\\nHighlighted background and display call length in real-time.</string>
+    <string name="pref_wear_title">Wear OS (Experimental)</string>
+    <string name="pref_wear_summary">Synchronize notification to Wear OS devices</string>
+    <string name="pref_hide_title">Hide launcher icon</string>
+    <string name="pref_hide_summary">You can still enter this page through plugin settings inside Nevolution.</string>
+    <string name="pref_open_source_title">Open Source</string>
+    <string name="pref_open_source_summary">Visit us on GitHub!</string>
+    <string name="pref_version_title">Version</string>
+    <string name="prompt_hide_prerequisite">You have to enter this page from within Nevolution in order to hide launcher icon.\nThis will be the only way to enter this page after launcher icon is been hidden.</string>
 </resources>
